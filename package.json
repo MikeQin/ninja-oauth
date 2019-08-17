@@ -15,6 +15,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikeQin/ninja-oauth.git"
+    "url": "https://github.com/MikeQin/ninja-oauth.git"
   }
 }
