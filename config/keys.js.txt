@@ -1,0 +1,14 @@
+// Replace with your own configuration
+// Rename this file to 'keys.js'
+module.exports = {
+  google: {
+    clientID: 'abc1234567890.apps.googleusercontent.com',
+    clientSecret: 'k-xyz'
+  },
+  mongodb: {
+    dbURI: 'mongodb://mongo:mongo@localhost:27017/oauth-profile'
+  },
+  session: {
+    cookieKey: 'my_secret_sessionKey'
+  }
+}

@@ -52,17 +52,12 @@
 <body>
   <%- include('navbar.ejs') %>
   <header>
-    <h2>Home</h2>
-    <h1>Node/Express OAuth Tutorials</h1>
+    <h2>Profile</h2>
+    <h1>Welcome, <%= user.userName %> </h1>
   </header>
   <main>
-    <p> Tech stack:
-      <ul>
-        <li>node, express, ejs</li>
-        <li>passport, passport-google-oauth20</li>
-        <li>mongoose, mongodb</li>
-        <li>cookie-session</li>
-    </p>
+    <img src="<%= user.thumbnail %>" alt="profile picture" />
+    <p>This is your profile picture...</p>
   </main>
   <%- include('footer.ejs') %>
 </body>

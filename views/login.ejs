@@ -13,7 +13,7 @@
     }
 
     nav {
-      background: #ff5353;
+      background: #030585;
       padding: 20px 10px;
     }
 
@@ -52,26 +52,21 @@
       text-decoration: none;
       font-size: 18px;
       padding: 10px;
-      background: #ff5353;
+      background: #030585;
     }
   </style>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/auth/login">Login</a></li>
-      <li><a href="/auth/logout">Logout</a></li>
-    </ul>
-  </nav>
+  <%- include('navbar.ejs') %>
   <header>
-    <h1>Login using...</h1>
+    <h2>Login</h2>
+    <h1>Social login: Google+</h1>
   </header>
   <main>
     <a class="google-btn" href="/auth/google">Google+</a>
   </main>
-  <footer>2019.08.17 by Michael Qin</footer>
+  <%- include('footer.ejs') %>
 </body>
 
 </html>
