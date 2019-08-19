@@ -23,3 +23,12 @@ Authentication with Goole+:
      and {scope: ['profile']} to google
   3. Google validates (auth_code, clientId, clientSecret), then returns access_token, and profile in callback
   4. Google redirects the request to redirect_url
+
+### Google Cloud Platform (Developer APIs)
+
+Configure your OAuth Client Credentials
+https://console.cloud.google.com
+
+### MongoDB
+
+Install MongoDB in Ubuntu (Virtual Box) or use [mLab](https://mlab.com/)
